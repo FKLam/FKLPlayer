@@ -26,7 +26,7 @@ typedef NS_ENUM(NSInteger, FKLRemotePlayerState) {
 
 + (instancetype)shareInstance;
 
-- (void)playWithURL:(NSURL *)url;
+- (void)playWithURL:(NSURL *)url isCache:(BOOL)isCache;
 
 - (void)pause;
 - (void)resume;

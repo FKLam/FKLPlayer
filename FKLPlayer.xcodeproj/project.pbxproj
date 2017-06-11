@@ -16,6 +16,8 @@
 		BC55E9341EECDB7A00890CE1 /* FKLPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55E9331EECDB7A00890CE1 /* FKLPlayerTests.m */; };
 		BC55E93F1EECDB7A00890CE1 /* FKLPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55E93E1EECDB7A00890CE1 /* FKLPlayerUITests.m */; };
 		BC55E94F1EECDB8E00890CE1 /* FKLRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55E94E1EECDB8E00890CE1 /* FKLRemotePlayer.m */; };
+		BC55E9521EECFFF800890CE1 /* FKLRemoteResourceLoaderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55E9511EECFFF800890CE1 /* FKLRemoteResourceLoaderDelegate.m */; };
+		BC55E9551EED02F400890CE1 /* NSURL+FK.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55E9541EED02F400890CE1 /* NSURL+FK.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		BC55E9401EECDB7A00890CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC55E94D1EECDB8E00890CE1 /* FKLRemotePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLRemotePlayer.h; sourceTree = "<group>"; };
 		BC55E94E1EECDB8E00890CE1 /* FKLRemotePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLRemotePlayer.m; sourceTree = "<group>"; };
+		BC55E9501EECFFF800890CE1 /* FKLRemoteResourceLoaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLRemoteResourceLoaderDelegate.h; sourceTree = "<group>"; };
+		BC55E9511EECFFF800890CE1 /* FKLRemoteResourceLoaderDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLRemoteResourceLoaderDelegate.m; sourceTree = "<group>"; };
+		BC55E9531EED02F400890CE1 /* NSURL+FK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+FK.h"; sourceTree = "<group>"; };
+		BC55E9541EED02F400890CE1 /* NSURL+FK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+FK.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +155,10 @@
 			children = (
 				BC55E94D1EECDB8E00890CE1 /* FKLRemotePlayer.h */,
 				BC55E94E1EECDB8E00890CE1 /* FKLRemotePlayer.m */,
+				BC55E9501EECFFF800890CE1 /* FKLRemoteResourceLoaderDelegate.h */,
+				BC55E9511EECFFF800890CE1 /* FKLRemoteResourceLoaderDelegate.m */,
+				BC55E9531EED02F400890CE1 /* NSURL+FK.h */,
+				BC55E9541EED02F400890CE1 /* NSURL+FK.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -290,6 +300,8 @@
 				BC55E91E1EECDB7A00890CE1 /* AppDelegate.m in Sources */,
 				BC55E94F1EECDB8E00890CE1 /* FKLRemotePlayer.m in Sources */,
 				BC55E91B1EECDB7A00890CE1 /* main.m in Sources */,
+				BC55E9551EED02F400890CE1 /* NSURL+FK.m in Sources */,
+				BC55E9521EECFFF800890CE1 /* FKLRemoteResourceLoaderDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +533,7 @@
 				BC55E9451EECDB7A00890CE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC55E9461EECDB7A00890CE1 /* Build configuration list for PBXNativeTarget "FKLPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +542,7 @@
 				BC55E9481EECDB7A00890CE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC55E9491EECDB7A00890CE1 /* Build configuration list for PBXNativeTarget "FKLPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +551,7 @@
 				BC55E94B1EECDB7A00890CE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

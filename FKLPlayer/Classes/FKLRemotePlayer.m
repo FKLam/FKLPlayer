@@ -8,12 +8,16 @@
 
 #import "FKLRemotePlayer.h"
 #import <AVFoundation/AVFoundation.h>
+#import "FKLRemoteResourceLoaderDelegate.h"
+#import "NSURL+FK.h"
 
 @interface FKLRemotePlayer () {
     BOOL _isUserPause;
 }
 
 @property (nonatomic, strong) AVPlayer *player;
+
+@property (nonatomic, strong) FKLRemoteResourceLoaderDelegate *resourceLoaderDelegate;
 
 @end
 
@@ -38,7 +42,7 @@ static FKLRemotePlayer *_shareInstance;
     return _shareInstance;
 }
 
-- (void)playWithURL:(NSURL *)url {
+- (void)playWithURL:(NSURL *)url isCache:(BOOL)isCache {
     // 创建一个播放器对象
     // 若果我们使用这样的方法，去播放远程音频
     // 这个方法，已经帮我们封装了三个步骤
@@ -56,8 +60,16 @@ static FKLRemotePlayer *_shareInstance;
         [self removeOberver];
     }
     _url = url;
+    if( isCache ) {
+        url = [url streamURL];
+    }
     // 1，资源的请求
-    AVAsset *asset = [AVAsset assetWithURL:url];
+    AVURLAsset *asset = [AVURLAsset assetWithURL:url];
+    
+    // 关于网络音频的请求，是通过这个对象，调用代理的相关方法，进行加载的
+    // 拦截加载的请求，只需要，重新修改她的代理方法就可以
+    self.resourceLoaderDelegate = [FKLRemoteResourceLoaderDelegate new];
+    [asset.resourceLoader setDelegate:self.resourceLoaderDelegate queue:dispatch_get_main_queue()];
     
     // 2，资源的组织
     AVPlayerItem *item = [AVPlayerItem playerItemWithAsset:asset];
