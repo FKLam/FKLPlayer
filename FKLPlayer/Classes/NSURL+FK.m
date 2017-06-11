@@ -16,4 +16,10 @@
     return components.URL;
 }
 
+- (NSURL *)httpURL {
+    NSURLComponents *components = [NSURLComponents componentsWithString:self.absoluteString];
+    components.scheme = @"http";
+    return components.URL;
+}
+
 @end

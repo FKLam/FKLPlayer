@@ -12,4 +12,6 @@
 
 - (NSURL *)streamURL;
 
+- (NSURL *)httpURL;
+
 @end

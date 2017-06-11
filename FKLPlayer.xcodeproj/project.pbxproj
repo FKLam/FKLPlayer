@@ -18,6 +18,8 @@
 		BC55E94F1EECDB8E00890CE1 /* FKLRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55E94E1EECDB8E00890CE1 /* FKLRemotePlayer.m */; };
 		BC55E9521EECFFF800890CE1 /* FKLRemoteResourceLoaderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55E9511EECFFF800890CE1 /* FKLRemoteResourceLoaderDelegate.m */; };
 		BC55E9551EED02F400890CE1 /* NSURL+FK.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55E9541EED02F400890CE1 /* NSURL+FK.m */; };
+		BCE5E9421EED0B200025C97F /* FKLRemoteAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE5E9411EED0B200025C97F /* FKLRemoteAudioFile.m */; };
+		BCE5E9451EED14640025C97F /* FKLAudioDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE5E9441EED14640025C97F /* FKLAudioDownLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		BC55E9511EECFFF800890CE1 /* FKLRemoteResourceLoaderDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLRemoteResourceLoaderDelegate.m; sourceTree = "<group>"; };
 		BC55E9531EED02F400890CE1 /* NSURL+FK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+FK.h"; sourceTree = "<group>"; };
 		BC55E9541EED02F400890CE1 /* NSURL+FK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+FK.m"; sourceTree = "<group>"; };
+		BCE5E9401EED0B200025C97F /* FKLRemoteAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLRemoteAudioFile.h; sourceTree = "<group>"; };
+		BCE5E9411EED0B200025C97F /* FKLRemoteAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLRemoteAudioFile.m; sourceTree = "<group>"; };
+		BCE5E9431EED14640025C97F /* FKLAudioDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLAudioDownLoader.h; sourceTree = "<group>"; };
+		BCE5E9441EED14640025C97F /* FKLAudioDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLAudioDownLoader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,8 +163,12 @@
 				BC55E94E1EECDB8E00890CE1 /* FKLRemotePlayer.m */,
 				BC55E9501EECFFF800890CE1 /* FKLRemoteResourceLoaderDelegate.h */,
 				BC55E9511EECFFF800890CE1 /* FKLRemoteResourceLoaderDelegate.m */,
+				BCE5E9431EED14640025C97F /* FKLAudioDownLoader.h */,
+				BCE5E9441EED14640025C97F /* FKLAudioDownLoader.m */,
 				BC55E9531EED02F400890CE1 /* NSURL+FK.h */,
 				BC55E9541EED02F400890CE1 /* NSURL+FK.m */,
+				BCE5E9401EED0B200025C97F /* FKLRemoteAudioFile.h */,
+				BCE5E9411EED0B200025C97F /* FKLRemoteAudioFile.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -298,8 +308,10 @@
 			files = (
 				BC55E9211EECDB7A00890CE1 /* ViewController.m in Sources */,
 				BC55E91E1EECDB7A00890CE1 /* AppDelegate.m in Sources */,
+				BCE5E9421EED0B200025C97F /* FKLRemoteAudioFile.m in Sources */,
 				BC55E94F1EECDB8E00890CE1 /* FKLRemotePlayer.m in Sources */,
 				BC55E91B1EECDB7A00890CE1 /* main.m in Sources */,
+				BCE5E9451EED14640025C97F /* FKLAudioDownLoader.m in Sources */,
 				BC55E9551EED02F400890CE1 /* NSURL+FK.m in Sources */,
 				BC55E9521EECFFF800890CE1 /* FKLRemoteResourceLoaderDelegate.m in Sources */,
 			);
