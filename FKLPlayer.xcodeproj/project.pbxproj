@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC55E91B1EECDB7A00890CE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55E91A1EECDB7A00890CE1 /* main.m */; };
+		BC55E91E1EECDB7A00890CE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55E91D1EECDB7A00890CE1 /* AppDelegate.m */; };
+		BC55E9211EECDB7A00890CE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55E9201EECDB7A00890CE1 /* ViewController.m */; };
+		BC55E9241EECDB7A00890CE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC55E9221EECDB7A00890CE1 /* Main.storyboard */; };
+		BC55E9261EECDB7A00890CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC55E9251EECDB7A00890CE1 /* Assets.xcassets */; };
+		BC55E9291EECDB7A00890CE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC55E9271EECDB7A00890CE1 /* LaunchScreen.storyboard */; };
+		BC55E9341EECDB7A00890CE1 /* FKLPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55E9331EECDB7A00890CE1 /* FKLPlayerTests.m */; };
+		BC55E93F1EECDB7A00890CE1 /* FKLPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55E93E1EECDB7A00890CE1 /* FKLPlayerUITests.m */; };
+		BC55E94F1EECDB8E00890CE1 /* FKLRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55E94E1EECDB8E00890CE1 /* FKLRemotePlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC55E9301EECDB7A00890CE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC55E90E1EECDB7A00890CE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC55E9151EECDB7A00890CE1;
+			remoteInfo = FKLPlayer;
+		};
+		BC55E93B1EECDB7A00890CE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC55E90E1EECDB7A00890CE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC55E9151EECDB7A00890CE1;
+			remoteInfo = FKLPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC55E9161EECDB7A00890CE1 /* FKLPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FKLPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC55E91A1EECDB7A00890CE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC55E91C1EECDB7A00890CE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC55E91D1EECDB7A00890CE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC55E91F1EECDB7A00890CE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC55E9201EECDB7A00890CE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC55E9231EECDB7A00890CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC55E9251EECDB7A00890CE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC55E9281EECDB7A00890CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC55E92A1EECDB7A00890CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC55E92F1EECDB7A00890CE1 /* FKLPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FKLPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC55E9331EECDB7A00890CE1 /* FKLPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKLPlayerTests.m; sourceTree = "<group>"; };
+		BC55E9351EECDB7A00890CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC55E93A1EECDB7A00890CE1 /* FKLPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FKLPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC55E93E1EECDB7A00890CE1 /* FKLPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKLPlayerUITests.m; sourceTree = "<group>"; };
+		BC55E9401EECDB7A00890CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC55E94D1EECDB8E00890CE1 /* FKLRemotePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLRemotePlayer.h; sourceTree = "<group>"; };
+		BC55E94E1EECDB8E00890CE1 /* FKLRemotePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLRemotePlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC55E9131EECDB7A00890CE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC55E92C1EECDB7A00890CE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC55E9371EECDB7A00890CE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC55E90D1EECDB7A00890CE1 = {
+			isa = PBXGroup;
+			children = (
+				BC55E9181EECDB7A00890CE1 /* FKLPlayer */,
+				BC55E9321EECDB7A00890CE1 /* FKLPlayerTests */,
+				BC55E93D1EECDB7A00890CE1 /* FKLPlayerUITests */,
+				BC55E9171EECDB7A00890CE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC55E9171EECDB7A00890CE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC55E9161EECDB7A00890CE1 /* FKLPlayer.app */,
+				BC55E92F1EECDB7A00890CE1 /* FKLPlayerTests.xctest */,
+				BC55E93A1EECDB7A00890CE1 /* FKLPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC55E9181EECDB7A00890CE1 /* FKLPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				BC55E94C1EECDB8E00890CE1 /* Classes */,
+				BC55E91C1EECDB7A00890CE1 /* AppDelegate.h */,
+				BC55E91D1EECDB7A00890CE1 /* AppDelegate.m */,
+				BC55E91F1EECDB7A00890CE1 /* ViewController.h */,
+				BC55E9201EECDB7A00890CE1 /* ViewController.m */,
+				BC55E9221EECDB7A00890CE1 /* Main.storyboard */,
+				BC55E9251EECDB7A00890CE1 /* Assets.xcassets */,
+				BC55E9271EECDB7A00890CE1 /* LaunchScreen.storyboard */,
+				BC55E92A1EECDB7A00890CE1 /* Info.plist */,
+				BC55E9191EECDB7A00890CE1 /* Supporting Files */,
+			);
+			path = FKLPlayer;
+			sourceTree = "<group>";
+		};
+		BC55E9191EECDB7A00890CE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC55E91A1EECDB7A00890CE1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC55E9321EECDB7A00890CE1 /* FKLPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC55E9331EECDB7A00890CE1 /* FKLPlayerTests.m */,
+				BC55E9351EECDB7A00890CE1 /* Info.plist */,
+			);
+			path = FKLPlayerTests;
+			sourceTree = "<group>";
+		};
+		BC55E93D1EECDB7A00890CE1 /* FKLPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC55E93E1EECDB7A00890CE1 /* FKLPlayerUITests.m */,
+				BC55E9401EECDB7A00890CE1 /* Info.plist */,
+			);
+			path = FKLPlayerUITests;
+			sourceTree = "<group>";
+		};
+		BC55E94C1EECDB8E00890CE1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC55E94D1EECDB8E00890CE1 /* FKLRemotePlayer.h */,
+				BC55E94E1EECDB8E00890CE1 /* FKLRemotePlayer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC55E9151EECDB7A00890CE1 /* FKLPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC55E9431EECDB7A00890CE1 /* Build configuration list for PBXNativeTarget "FKLPlayer" */;
+			buildPhases = (
+				BC55E9121EECDB7A00890CE1 /* Sources */,
+				BC55E9131EECDB7A00890CE1 /* Frameworks */,
+				BC55E9141EECDB7A00890CE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FKLPlayer;
+			productName = FKLPlayer;
+			productReference = BC55E9161EECDB7A00890CE1 /* FKLPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC55E92E1EECDB7A00890CE1 /* FKLPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC55E9461EECDB7A00890CE1 /* Build configuration list for PBXNativeTarget "FKLPlayerTests" */;
+			buildPhases = (
+				BC55E92B1EECDB7A00890CE1 /* Sources */,
+				BC55E92C1EECDB7A00890CE1 /* Frameworks */,
+				BC55E92D1EECDB7A00890CE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC55E9311EECDB7A00890CE1 /* PBXTargetDependency */,
+			);
+			name = FKLPlayerTests;
+			productName = FKLPlayerTests;
+			productReference = BC55E92F1EECDB7A00890CE1 /* FKLPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC55E9391EECDB7A00890CE1 /* FKLPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC55E9491EECDB7A00890CE1 /* Build configuration list for PBXNativeTarget "FKLPlayerUITests" */;
+			buildPhases = (
+				BC55E9361EECDB7A00890CE1 /* Sources */,
+				BC55E9371EECDB7A00890CE1 /* Frameworks */,
+				BC55E9381EECDB7A00890CE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC55E93C1EECDB7A00890CE1 /* PBXTargetDependency */,
+			);
+			name = FKLPlayerUITests;
+			productName = FKLPlayerUITests;
+			productReference = BC55E93A1EECDB7A00890CE1 /* FKLPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC55E90E1EECDB7A00890CE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kun;
+				TargetAttributes = {
+					BC55E9151EECDB7A00890CE1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					BC55E92E1EECDB7A00890CE1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC55E9151EECDB7A00890CE1;
+					};
+					BC55E9391EECDB7A00890CE1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC55E9151EECDB7A00890CE1;
+					};
+				};
+			};
+			buildConfigurationList = BC55E9111EECDB7A00890CE1 /* Build configuration list for PBXProject "FKLPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC55E90D1EECDB7A00890CE1;
+			productRefGroup = BC55E9171EECDB7A00890CE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC55E9151EECDB7A00890CE1 /* FKLPlayer */,
+				BC55E92E1EECDB7A00890CE1 /* FKLPlayerTests */,
+				BC55E9391EECDB7A00890CE1 /* FKLPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC55E9141EECDB7A00890CE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC55E9291EECDB7A00890CE1 /* LaunchScreen.storyboard in Resources */,
+				BC55E9261EECDB7A00890CE1 /* Assets.xcassets in Resources */,
+				BC55E9241EECDB7A00890CE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC55E92D1EECDB7A00890CE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC55E9381EECDB7A00890CE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC55E9121EECDB7A00890CE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC55E9211EECDB7A00890CE1 /* ViewController.m in Sources */,
+				BC55E91E1EECDB7A00890CE1 /* AppDelegate.m in Sources */,
+				BC55E94F1EECDB8E00890CE1 /* FKLRemotePlayer.m in Sources */,
+				BC55E91B1EECDB7A00890CE1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC55E92B1EECDB7A00890CE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC55E9341EECDB7A00890CE1 /* FKLPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC55E9361EECDB7A00890CE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC55E93F1EECDB7A00890CE1 /* FKLPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC55E9311EECDB7A00890CE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC55E9151EECDB7A00890CE1 /* FKLPlayer */;
+			targetProxy = BC55E9301EECDB7A00890CE1 /* PBXContainerItemProxy */;
+		};
+		BC55E93C1EECDB7A00890CE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC55E9151EECDB7A00890CE1 /* FKLPlayer */;
+			targetProxy = BC55E93B1EECDB7A00890CE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC55E9221EECDB7A00890CE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC55E9231EECDB7A00890CE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC55E9271EECDB7A00890CE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC55E9281EECDB7A00890CE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC55E9411EECDB7A00890CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC55E9421EECDB7A00890CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC55E9441EECDB7A00890CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FKLPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fkunlam.www.FKLPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC55E9451EECDB7A00890CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FKLPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fkunlam.www.FKLPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC55E9471EECDB7A00890CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FKLPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fkunlam.www.FKLPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FKLPlayer.app/FKLPlayer";
+			};
+			name = Debug;
+		};
+		BC55E9481EECDB7A00890CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FKLPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fkunlam.www.FKLPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FKLPlayer.app/FKLPlayer";
+			};
+			name = Release;
+		};
+		BC55E94A1EECDB7A00890CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FKLPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fkunlam.www.FKLPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FKLPlayer;
+			};
+			name = Debug;
+		};
+		BC55E94B1EECDB7A00890CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FKLPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fkunlam.www.FKLPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FKLPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC55E9111EECDB7A00890CE1 /* Build configuration list for PBXProject "FKLPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC55E9411EECDB7A00890CE1 /* Debug */,
+				BC55E9421EECDB7A00890CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC55E9431EECDB7A00890CE1 /* Build configuration list for PBXNativeTarget "FKLPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC55E9441EECDB7A00890CE1 /* Debug */,
+				BC55E9451EECDB7A00890CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC55E9461EECDB7A00890CE1 /* Build configuration list for PBXNativeTarget "FKLPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC55E9471EECDB7A00890CE1 /* Debug */,
+				BC55E9481EECDB7A00890CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC55E9491EECDB7A00890CE1 /* Build configuration list for PBXNativeTarget "FKLPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC55E94A1EECDB7A00890CE1 /* Debug */,
+				BC55E94B1EECDB7A00890CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC55E90E1EECDB7A00890CE1 /* Project object */;
+}
